@@ -1,0 +1,35 @@
+    1  git config --global user.name Andy-Kolch
+    2  git config --get user.name
+    3  git config --global user.email kingofa745@gmail.com
+    4  git config --get user.email
+    5  git clone https://github.com/Andy-Kolch/HW_10
+    6  cd HW_10
+    7  touch text_ignore.txt
+    8  nano text_ignore.txt
+    9  nano .gitignore
+   10  git status
+   11  nano .gitignore
+   12  git add .gitignore
+   13  git commit -m "ignore text_ignore.txt"
+   14  get status
+   15  git status
+   16  touch main_test.txt
+   17  git add
+   18  git add .
+   19  git commit -m "empty fail main_test.txt"
+   20  git branch develop
+   21  git checkout develop
+   22  touch develop_test.txt
+   23  git add
+   24  git add .
+   25  git commit -m "new file develop_test.txt"
+   26  nano develop_test.txt
+   27  git status
+   28  nano develop_test.txt
+   29  nano develop_test.txt
+   30  git add .
+   31  git commit -m "chsnges develop_test.txt"
+   32  git checkout main
+   33  git merge develop
+   34  git log
+   35  history > command_list.csv
